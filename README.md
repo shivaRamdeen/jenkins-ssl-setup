@@ -1,5 +1,5 @@
 # jenkins-ssl-setup
-Document how to run Jenkins JAR with ssl enabled using LetsEncrypt
+Quick note on how to run Jenkins with SSL (not using a reverse proxy)
 
 # Step: 1
 ```sudo certbot certonly --standalone --preferred-challenges http -d yourdomain.com```
